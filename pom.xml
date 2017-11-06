@@ -16,6 +16,7 @@
     	<mule.tools.version>1.2</mule.tools.version>
     	<derby.version>10.14.1.0</derby.version>
     	<activemq.version>5.15.2</activemq.version>
+    	<pwd>junk</pwd>
 	</properties>
 
 	<build>
@@ -28,7 +29,7 @@
 			        <deploymentType>cloudhub</deploymentType>
 			        <muleVersion>${mule.version}</muleVersion>
 			        <username>pintupatro</username>
-			        <password>junk</password>
+			        <password>${pwd}</password>
 				      <workerType>Micro</workerType>
 			        <redeploy>true</redeploy>
 			        <environment>Sandbox</environment>
